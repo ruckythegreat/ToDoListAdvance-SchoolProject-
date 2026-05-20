@@ -313,7 +313,7 @@ void sortingTask(Task daftar[], int jumlahTask) {
         bersihkanInput();
     }
 
-    // Bubble sort agar mudah dipahami siswa kelas X
+    // Bubble sort
     for (int i = 0; i < jumlahTask - 1; i++) {
         for (int j = 0; j < jumlahTask - i - 1; j++) {
             bool tukar = false;
